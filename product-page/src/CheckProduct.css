@@ -1,0 +1,22 @@
+.filled-cart-content p{
+    color: hsl(219, 9%, 45%);
+}
+.filled-cart-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.filled-image{
+    width: 45px;
+    border-radius: 5px;
+}
+
+.filled-price{
+    display: flex;
+    gap: 5px;
+    margin-top: 1px;
+}
+.filled-cart-content img{
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.light-box-container{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background: rgba(0,0,0,0.825);
+    z-index: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.close-img{
+    position: relative;
+    left: 455px;
+    cursor: pointer;
+}
+.left-icon-div,.right-icon-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 70px;
+    background-color: white;
+    cursor: pointer;
+    z-index: 10;
+}
+.left-icon-div{
+    left: 10px;
+}
+.right-icon-div{
+    right: 10px;
+}
+.icon{
+    width: 8px;
+}
+.images-light-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
